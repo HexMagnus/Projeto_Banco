@@ -35,9 +35,7 @@ public class pessoa {
 	}
 	
 	public String toString() {
-		return "/nNome: " + this.getNome() +
-		"\nCPF " + this.getCPF() +
-		"\nEmail " + this.getEmail();
+		retunr "/nNome: " + this.getNome();
 	}
 	
 	

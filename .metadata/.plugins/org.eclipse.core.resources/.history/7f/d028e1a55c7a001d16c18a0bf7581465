@@ -25,7 +25,7 @@ public class pessoa {
 		return cpf;
 	}
 	public void setCPF(String cPF) {
-		this.cpf = cPF;
+		cpf = cPF;
 	}
 	public String getEmail() {
 		return email;
@@ -33,13 +33,6 @@ public class pessoa {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	public String toString() {
-		return "/nNome: " + this.getNome() +
-		"\nCPF " + this.getCPF() +
-		"\nEmail " + this.getEmail();
-	}
-	
 	
 	
 }

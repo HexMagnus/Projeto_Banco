@@ -1,0 +1,6 @@
+package utilitarios;
+
+public class utils {
+	static NumberFormat formatandoValores = new DecimalFormat();
+
+}
