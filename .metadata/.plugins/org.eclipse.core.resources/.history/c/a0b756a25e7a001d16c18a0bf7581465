@@ -1,0 +1,66 @@
+
+public class testes {
+
+	//create CounterVariableExample1 to count the occurrence of each character in a string using counter variable  
+	class CounterVariableExample2 {  
+	    //set maximum character size  
+	    static final int MAX = 256;  
+	      
+	    static 
+	    {  
+	        // Create an array of size 256, i.e., ASCII_SIZE  
+	        int count[] = new int[MAX];  
+	          
+	        //calculate the length of the string   
+	        String str;
+			int len = str.length();   
+	           
+	        // Initialize count array index  
+	        for (int i = 0; i < len; i++)  
+	            count[str.charAt(i)]++;  
+	              
+	        // create a character array of size len  
+	        char charArray[] = new char[len];  
+	   
+	        // copying each character of string to charArray  
+	        for (int i = 0; i < len; i++){  
+	            charArray[i] = str.charAt(i);  
+	            //initialize counter variable  
+	            int counter = 0;  
+	              
+	            for (int j = 0; j <= i; j++) {  
+	   
+	                // increment the counter if any match fount  
+	                if (str.charAt(i) == charArray[j])  
+	                    counter++;  
+	            }  
+	              
+	            if (counter == 1)  
+	                System.out.println( "The occurrence of character "+str.charAt(i)  
+	                    + " is:" + count[str.charAt(i)]);  
+	        }  
+	    }  
+	     
+	    // main() method start  
+	    public static void main(String[] args)  
+	    {  
+	        //create variable of string type with default string   
+	        String str = "javaTpoint is the best learning website";  
+	          
+	        //call getNumberOfSameChar() method to get the occurrence of each character in the string  
+	        getNumberOfSameChar(str);  
+	    }
+
+		private static void getNumberOfSameChar(String str) {
+			// TODO Auto-generated method stub
+			
+	}
+	}	
+			
+	}
+	
+		
+		
+	
+
+

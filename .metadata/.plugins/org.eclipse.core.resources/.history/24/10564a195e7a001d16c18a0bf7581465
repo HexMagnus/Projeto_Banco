@@ -1,0 +1,19 @@
+
+public class testes {
+
+	public class  CounterVariableExample1{   
+	    //início do método main()  
+	    public static void  main(String[] args) {    
+	        //inicializa o contador  
+	        int  contador =  0 ;  
+	          
+	        //usando o loop for para incrementar a variável do contador  
+	        for ( int  i= 0 ; i< 5 ; i++){  
+	            //incrementa a variável do contador  
+	            contador = contador +  1 ;  
+	            //imprime o valor da variável do contador incrementado  
+	            System.out.println(contador);  
+	        }  
+	    }  
+	}  
+}
