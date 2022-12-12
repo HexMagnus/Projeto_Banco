@@ -7,13 +7,6 @@ public class pessoa {
 	private String nome;
 	private String CPF;
 	private String email;
-	
-	public pessoa(String nome, String cPF, String email) {
-		super();
-		this.nome = nome;
-		CPF = cPF;
-		this.email = email;
-	}
 	public String getNome() {
 		return nome;
 	}
